@@ -161,7 +161,7 @@ class Location {
   final String? city;
   final String? state;
   final String? country;
-  final int? postcode;
+  final dynamic postcode;
   final Coordinates? coordinates;
   final Timezone? timezone;
 

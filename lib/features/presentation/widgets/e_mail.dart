@@ -28,11 +28,11 @@ class E_mail extends StatelessWidget {
           children: [
             Text(
               "Name:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$firstName",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
@@ -41,11 +41,11 @@ class E_mail extends StatelessWidget {
           children: [
             Text(
               "Email:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$email",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
@@ -54,11 +54,11 @@ class E_mail extends StatelessWidget {
           children: [
             Text(
               "User name:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$userName",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
@@ -67,11 +67,11 @@ class E_mail extends StatelessWidget {
           children: [
             Text(
               "Phone:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$phoneNumber",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
@@ -80,11 +80,11 @@ class E_mail extends StatelessWidget {
           children: [
             Text(
               "Cell:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$cell",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
@@ -93,11 +93,11 @@ class E_mail extends StatelessWidget {
           children: [
             Text(
               "Registred:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$registred",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),

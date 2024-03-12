@@ -28,11 +28,11 @@ class MainInfo extends StatelessWidget {
           children: [
             Text(
               "Name:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$titleName",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
@@ -41,11 +41,11 @@ class MainInfo extends StatelessWidget {
           children: [
             Text(
               "First name:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$firstName",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
@@ -54,11 +54,11 @@ class MainInfo extends StatelessWidget {
           children: [
             Text(
               "Last name:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$lastName",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
@@ -67,11 +67,11 @@ class MainInfo extends StatelessWidget {
           children: [
             Text(
               "Gender:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$gender",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
@@ -80,11 +80,11 @@ class MainInfo extends StatelessWidget {
           children: [
             Text(
               "Date of birth:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$dateOfBirth",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
@@ -93,11 +93,11 @@ class MainInfo extends StatelessWidget {
           children: [
             Text(
               "Age:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$age",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),

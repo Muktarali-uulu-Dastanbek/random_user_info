@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:dio/dio.dart';
 import 'package:tapbarr_exemple/features/data/models/user_model.dart';
 import 'package:tapbarr_exemple/features/domain/repositories/user_repository.dart';
@@ -11,7 +13,7 @@ class UserRepositoryImpl implements UserRepository {
     try {
       Response response = await apiRequester.toGet("${apiRequester.url}");
 
-      print("getUserInfo result== ${response.data}");
+      log("getUserInfo result== ${response.data}");
 
       if (response.statusCode == 200) {
         return UserModel.fromJson(response.data);

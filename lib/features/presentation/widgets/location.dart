@@ -26,11 +26,11 @@ class Location extends StatelessWidget {
           children: [
             Text(
               "Phone number:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$phoneNumber",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
@@ -39,11 +39,11 @@ class Location extends StatelessWidget {
           children: [
             Text(
               "Location:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$location",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
@@ -52,11 +52,11 @@ class Location extends StatelessWidget {
           children: [
             Text(
               "City:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$city",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
@@ -65,11 +65,11 @@ class Location extends StatelessWidget {
           children: [
             Text(
               "Email:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$email",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
@@ -78,11 +78,11 @@ class Location extends StatelessWidget {
           children: [
             Text(
               "Age:",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             Text(
               "$age",
-              style: TextHelper.w600s16,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),
